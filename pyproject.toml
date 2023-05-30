@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "redis-examples"
+version = "0.1.0"
+description = ""
+authors = ["cdanmontoya <carlos.danmontoya@gmail.com>"]
+readme = "README.md"
+packages = [{include = "redis_examples"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+redis = "^4.5.5"
+loguru = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
